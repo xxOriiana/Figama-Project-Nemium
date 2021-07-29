@@ -1,3 +1,8 @@
 body {
-  background-color: cyan;
+  background-image: url("https://i.pinimg.com/originals/5f/ee/8e/5fee8e4a9fea271529cfd8828dd990d5.gif");
+  color: #fff;
+}
+
+.container-de-menu {
+  background-color: none;
 }
