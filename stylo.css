@@ -1,8 +1,87 @@
-body {
-  background-image: url("https://i.pinimg.com/originals/5f/ee/8e/5fee8e4a9fea271529cfd8828dd990d5.gif");
-  color: #fff;
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-italic.otf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-bold.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-bold-italic.otf);
+  font-style: italic;
+  font-weight: bold;
 }
 
-.container-de-menu {
-  background-color: none;
+body{
+  font-family: charter;
+}
+
+:root {
+  --gray: #616161;
+  --gray-title-h: #424242;
+  --black-light: #212121;
+  --black-footer: #212429;
+}h1{
+  font-size: 60px;
+}h2, h3, h4{
+  font-size: 24px;
+  color: var(--gray-title-h);
+}p{
+  font-size: 16px;
+}
+.decoration{
+  text-decoration-line: underline;
+}
+.decoration-cs {
+  font-size: 32px;
+  color: var(--black-light);
+}
+.decoratio-modelo-de-caja{
+  color: var(--black-light);
+}
+
+
+/* Tabbla CONTENIDO / SETUP / DESPLEGABLE */
+.container-de-menu a {
+  font-size: 14px;
+  color: #616161;
+  text-decoration: none;
+}
+.container-de-menu a:hover {
+  color: var(--black-light);
+}
+
+/* Tabla CONSEPTOS DEL DESARROLO WEB */
+.settigs-concep-de-la-web a{
+   font-size: 14px;
+   color: var(--gray);
+   text-decoration: none;
+}
+.settigs-concep-de-la-web a:hover {
+  color: var(--black-light);
+}
+nav details summary {
+  font-weight: bold;
+}
+
+
+.estilo-tabla-pre {
+  background-color: orange;
+}
+
+/* FOOTER DE LA PAGINA */
+.footer {
+  background: var(--black-footer);
+  color: #fff;
 }
