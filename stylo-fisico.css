@@ -1,0 +1,166 @@
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-regular.otf);
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-italic.otf);
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-bold.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face{
+  font-family: charter;
+  src: url(./fonts/fonts/charter-bold-italic.otf);
+  font-style: italic;
+  font-weight: bold;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  /* font-family: charter; */
+  margin: 0;
+  background: #BEB1EC;
+}
+
+:root {
+  --gray: #616161;
+  --gray-title-h: #424242;
+  --black-light: #212121;
+  --black-footer: #212429;
+  --color-pre: #FEC62E
+}
+
+.all-in {
+  margin: 0 116.95px 0 348px;
+}
+
+
+
+
+h1{
+  font-size: 60px;
+  /* margin: top right bottom left; */
+  margin: 64px 0 16px 0;
+}h2, h3, h4{
+  font-size: 24px;
+  color: var(--gray-title-h);
+}p{
+  font-size: 16px;
+}
+
+hr {
+  margin: 64px 0;
+}
+
+.setup-settings{
+  margin: 40px 0;
+  color: var(--black-light);
+}
+
+.container-imgs-settiges h3 {
+  margin: 16px 0;
+}
+.container-imgs-settiges p {
+  margin: 0 0 40px;
+}
+
+.title-frase-name h3 {
+  margin: 32px 0 16px 16px;
+}
+
+.menu-abajo h3 {
+  margin: 40px 0 16px 0;
+}
+
+.modelo-caja-section {
+  margin-top: 156px;
+}.modelo-caja-section h4 {
+    margin-bottom: 16px;
+}.modelo-caja-section img {
+    margin-bottom: 72px;
+}
+
+.modelo-caja-section ol li {
+  line-height: 24px;
+}
+.modelo-caja-section ul li {
+  margin-bottom: 16px;
+}
+
+.contact p {
+  margin-bottom: 40px;
+}.contact h4 {
+    margin-bottom: 28px;
+    font-family: 'Roboto';
+}
+
+.decoration-cs {
+  font-size: 32px;
+  color: var(--black-light);
+  margin: 60px 0 40px 0;
+}
+.decoratio-modelo-de-caja{
+  color: var(--black-light);
+}
+
+.hero {            /* DEGRADADO DE COLOR */
+  background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url(./img/patron-1.png);
+  height: 250px;
+}
+
+
+/* Tabbla CONTENIDO / SETUP / DESPLEGABLE */
+.container-de-menu a {
+  font-size: 14px;
+  color: #616161;
+  text-decoration: none;
+}
+.container-de-menu a:hover {
+  color: var(--black-light);
+}
+
+/* Tabla CONSEPTOS DEL DESARROLO WEB */
+.settigs-concep-de-la-web a{
+   font-size: 14px;
+   color: var(--gray);
+   text-decoration: none;
+}
+.settigs-concep-de-la-web a:hover {
+  color: var(--black-light);
+}
+nav details summary {
+  font-weight: bold;
+}
+
+
+.estilo-tabla-pre {
+  background-color: var(--color-pre)
+}
+
+/* FOOTER DE LA PAGINA */
+.footer {
+  text-align: center;
+  background: var(--black-footer);
+  color: #fff;
+  margin-top: 125px;
+}
+
+.decoration::before {
+  content: '';
+}
+.decoration::after {
+  content: '';
+  width: 32px;
+  height: 4px;
+  display: inline-block;
+  background: var(--gray-title-h);
+}
+

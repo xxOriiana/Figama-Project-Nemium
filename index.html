@@ -4,12 +4,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylo.css">
+  <link rel="stylesheet" href="stylo-fisico.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
   <title>Document</title>
 </head>
 <body>
+<div class="hero"></div>
 
-<div class="all-in">
+<main class="all-in">
 <nav class="container-de-menu">
   <p></p>
     <details>
@@ -41,49 +46,62 @@
 
 <div class="start-home">
   <h1>Curso esencial de HTML y CSS</h1>
-  <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos,
+  <p class="parrafo-inicio">Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos,
   en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
 </div>
 
   <hr>
 
-  <h2>Setup</h2>
+  <h2 class="setup-settings">Setup</h2>
 
+<div class="container-imgs-settiges">
 <!-- SECTION IMAGENES -->
+<section class="google-crhome-section">
   <img src="./img/Google-Chrome.png" id="#google-chrome" alt="Google Chrome Logo" title="Google Chrome logo">
-    <h3 class="decoration">Google Chrome</h3>
+    <h3 class="decoration" class="h3-decaration-google">1. Google Chrome</h3>
       <p>Chrome va a ser <strong class="span-p">el navegador que utilizaremos en el curso</strong> por su extenso soporte de nuevos estándares y herramientas de
       desarrollo avanzadas y de amigable uso.</p>
   <!--<img src="./img/background.png" alt="" title="">-->
+</section>
 
+
+<section class="visual-studio-section">
   <img src="./img/Visual-Studio-Code.png" id="vsc" alt="Visual Studio Logo" title="Visual Studio Logo">
-    <h3 class="decoration">Visual Studio Code</h3>
+    <h3 class="decoration">2. Visual Studio Code</h3>
       <p>Visual Studio Code es el <strong class="span-p">editor de texto más popular y potente del mercado actualmente,</strong> su fácil uso y la capacidad de
       extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en
       el que se desemvuelva.</p>
+</section>
 
+<section class="ficma-section">
   <img src="./img/Figma.png" id="figma" alt="Figma Logo" title="Figma Logo">
-    <h3 class="decoration">Figma</h3>
+    <h3 class="decoration"> 3. Figma</h3>
       <p>Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su
       implementación por su fácil uso porque puede ser usado directamente desde el navegador.</p>
+</section>
 
+<section class="github-section">
   <img src="./img/github.png" id="git-hub" alt="Github Logo" title="Github Logo">
-    <h3 class="decoration">GitHub</h3>
+    <h3 class="decoration">4. GitHub</h3>
       <p>Así como en Facebook te encuentran tus amigos, en Github <strong>te encuentran otras programadoras y programadores </strong>de todo el
       mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de
       manera privada, Github será esencial para almacenar tu futuro portafolio.</p>
+</section>
+</div>
 
   <div class="title-frase-name">
     <h3>“Este es el inicio de tu carrera como Desarrollador Web”</h3>
-    <h3>Leonidas Esteban</h3>
+    <h3 class="">- Leonidas Esteban</h3>
   </div>
 
+<section class="menu-abajo">
 <div class="html-description">
+
     <p class="decoration-cs">Conceptos esenciales del Desarrollo Web</p>
       <h3 id="descriptio-html" class="decoration">1. Qué es HTML</h3>
       <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
       y la estructura del contenido.</p>
-</div>
+
 
   <pre class="estilo-tabla-pre">
   &lt;!DOCTYPE html&gt;
@@ -98,7 +116,7 @@
     &lt;/body&gt;     :)
   &lt;/html&gt;
   </pre>
-
+</div>
 
   <div class="etiquetas-description">
     <h3 id="descriptio-etiquetas" class="decoration">2. Etiquetas</h3>
@@ -142,7 +160,9 @@
 
     <img src="./img/css-image.png" alt="">
   </div>
+</section>
 
+<section class="modelo-caja-section">
   <nav class="modelo-caja">
     <h3 class="decoratio-modelo-de-caja">Modelo de caja</h3>
       <h4>El modelo de caja está compuesto por:</h4>
@@ -165,7 +185,7 @@
       <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
     </ul>
 
-    <H4>Propiedades lógicas para el modelo de caja:</H4>
+    <h4>Propiedades lógicas para el modelo de caja:</h4>
 
     <ul>
       <li>inline-size / block-size</li>
@@ -179,11 +199,14 @@
     <h4>Modelo de caja</h4>
     <img src="./img/lionidas.png" alt="">
 
+
+</section>
+
+  <section class="contact">
     <p>
       Si tienes alguna pregunta escríbeme a
       <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a></span>
     </p>
-
     <h4>Suscríbete a nuestro newsletter</h4>
     <form action="">
       <label for="name">Nombre</label>
@@ -194,21 +217,21 @@
 
       <input type="submit" value="Suscribirme">
     </form>
+  </section>
 
-
-  <div class="footer">
+  <section class="footer">
       <p>© Leonidas Esteban 2021</p>
 
-    <a href="https://www.facebook.com/iLuxx/" target="blank">
+    <a class="facebook-icono" href="https://www.facebook.com/iLuxx/" target="blank">
       <img src="./img/facebook.png" alt="">
     </a>
 
     <a href="#Home">
     <input type="submit" value="Back-Home">
     </a>
-  </div>
+  </section>
 
-</div>
+</main>
 
 <script src="scrip.js"></script>
 </body>
